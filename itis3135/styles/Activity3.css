@@ -1,11 +1,17 @@
 
-body {
+main {
     font-family: sans-serif;
-    background-color: rgba(255, 138, 177, 0.479);
-    color: rgb(141, 10, 53);
+    background-color: pink;
+    color: maroon;
 }
 user agent stylesheet
 body {
     display: block;
     margin: 8px;
+}
+button {
+    background-color: maroon;
+    color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 }
