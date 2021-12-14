@@ -1,0 +1,35 @@
+body
+{
+	width: 750px;
+	margin: 0 auto;
+}
+
+table
+{
+	border-collapse: collapse;
+	
+	margin: 100px;
+}
+
+thead
+{
+	background-color: maroon;
+}
+
+th, td
+{
+	border: 1px solid lightcoral;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.right
+{
+	text-align: right;
+}
+
+tbody tr:nth-child(odd) td
+{
+	background-color: lightcoral;
+}
