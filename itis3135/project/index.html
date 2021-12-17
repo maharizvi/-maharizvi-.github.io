@@ -2,11 +2,14 @@
 <html lang = "en">
 <head>
     <meta charset = "UTF-8"> 
-    <link href="projectstyles/default.css" rel="stylesheet" type="text/css">
-   <center> <title>Maha's Photos</title></head><center>
-</head>
+    <link href="projectstyles/default.css" rel="stylesheet">
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+    <script src="projectscripts/slideshow.js"></script>
+    <center><title>Maha's Photos</title></head><center>
+    </head>
 
-<body>
+
+
 <header>
     <h1>Maha's Photos</h1>
 </header>
@@ -26,10 +29,27 @@
     <h2>Home</h2> 
     <p>Welcome to Maha's Photos!</p>
     <br>
-    <img src="projectimages/logo.png" alt=" logo icon" class="resize"></h1>
-    <h2 id="caption">Book your photo shoot with us today!</h2>
+    <img src="projectimages/logo.png" alt= "logo photo" width="200" height="200"></h1>
+    <br>
+    <h2>Image Gallery</h2>
+    <h3>Book your session with us today!</h3>
+    <ul id="image_list" class="slideshowlist">
+        <li><a href = "projectimages/grad.jpg" Title = "Grads">Grads</a></li>
+        
+        <li><a href = "projectimages/studio.jpg" Title = "Studio">Studio</a></li>
+      
+        <li><a href = "projectimages/portrait.jpg" Title = "Portraits">Portraits</a></li>
+      
+        <li><a href = "projectimages/family.jpg" Title = "Families">Families</a></li>
+       
+        <li><a href = "projectimages/fashion.jpg" Title = "Fashion">Fashion</a></li>
+       
+       
+    </ul>
+
+    <h2 id="caption">We would love to work with you for all your photography needs!</h2>
     <p id="gallery">
-        <img src="projectimages/gallery1.jpg" alt="Image Gallergy area" id="image" class="resize">
+        <img src="projectimages/grad.jpg" alt="Image Gallergy area" id="image" width="200" height="300">
     </p>
 </main>
 <footer>
